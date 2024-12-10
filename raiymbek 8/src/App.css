@@ -1,0 +1,63 @@
+/* Стандартные стили для светлой темы */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+div {
+  margin: 20px;
+}
+
+/* Стили для темной темы */
+.dark-theme {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.dark-theme h1 {
+  color: #ecf0f1;
+}
+
+.dark-theme button {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+.dark-theme button:hover {
+  background-color: #2c3e50;
+}
+
+.dark-theme input {
+  background-color: #34495e;
+  color: white;
+  border: 1px solid #7f8c8d;
+}
+
+.dark-theme div {
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 8px;
+}
